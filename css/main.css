@@ -1,0 +1,65 @@
+/** CARD FLIPPIN' **/
+.card {
+  perspective: 600px;
+}
+
+.card--inner {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card--inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card--inner .card-face {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card--inner .card-face.card-face--back {
+    transform: rotateY(180deg);
+}
+
+/** TROPHIES **/
+.trophy {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: auto 60px;
+    background-position: center top;
+}
+
+.trophy.trophy--bronze {
+    background-image: url(/assets/images/trophy-bronze.png);
+}
+
+.trophy.trophy--silver {
+    background-image: url(/assets/images/trophy-silver.png);
+}
+
+.trophy.trophy--gold {
+    background-image: url(/assets/images/trophy-gold.png);
+}
+
+.trophy.trophy--platinum {
+    background-image: url(/assets/images/trophy-platinum.png);
+}
+
+/** SCROLLBAR **/
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #555555;
+    border-radius: 5px;
+}
