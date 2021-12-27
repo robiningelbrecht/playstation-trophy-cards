@@ -36,44 +36,11 @@
                         <div>Trophies</div>
                         <i class="arrow w-[12px] h-[12px] -rotate-45 border-t-0 border-r-2 border-b-2 border-l-0 mr-1"></i>
                     </div>
-                    <div class="flex justify-around items-center">
-                        <div class="text-center">
-                            <div class="text-xl">21</div>
-                            <div class="text-sm">Earned</div>
-                        </div>
-                        <div>
-                            <svg width="100px" height="100px" viewBox="-25 -25 400 400">
-                                <circle stroke="#424145" cx="175" cy="175" r="175" stroke-width="8" fill="none"></circle>
-                                <!-- const radius = 175 -->
-                                <!-- const diameter = Math.round(Math.PI * radius * 2) -->
-                                <!-- const strokeDashOffset = Math.round((100 - Math.min(val, 100)) / 100 * diameter) -->
-                                <!-- source: https://github.com/zzarcon/react-circle/blob/master/src/circle.tsx -->
-                                <circle stroke="#FFFEFF" transform="rotate(-90 175 175)" cx="175" cy="175" r="175" stroke-dasharray="1100" stroke-width="8" stroke-dashoffset="1100" stroke-linecap="round" fill="none" style="stroke-dashoffset: 275;"></circle>
-                                <text fill="#FFFEFF" x="50%" y="50%" dx="-25" text-anchor="middle" style="font: normal 4rem Poppins, sans-serif;">75<tspan dx="10">%</tspan></text>
-                            </svg>
-                        </div>
-                        <div class="text-center">
-                            <div class="text-xl">43</div>
-                            <div class="text-sm">Available</div>
-                        </div>    
-                    </div>
-                    <div class="flex justify-between mt-8">
-                        <div class="trophy trophy--platinum">
-                            <span>0</span>
-                        </div>
-                        <div class="trophy trophy--gold">
-                            <span>0</span>
-                        </div>
-                        <div class="trophy trophy--silver">
-                            <span>4</span>
-                        </div>
-                        <div class="trophy trophy--bronze">
-                            <span>17</span>
-                        </div>
-                    </div>
+                    <ps-trophy-summary available="43" earned="21" percentage-earned="39"></ps-trophy-summary>
                 </div>
                 <div class="
                 card-face card-face--back 
+                overflow-auto
                 p-4 
                 absolute top-0 bottom-0 w-full h-full 
                 bg-gradient-to-b from-custom-zink-800 to-custom-zink-700 
@@ -94,44 +61,12 @@
                                 <img class="w-[45px] rounded-full ml-[30px] mr-4 border-4 border-custom-zink-800" src="https://i.psnprofiles.com/avatars/m/Gc0466d545.png" />
                                 <div class="text-sm mt-2">Robin Ingelbrecht</div>
                             </div>
-                            <div class="flex justify-around items-center">
-                                <div class="text-center">
-                                    <div class="text-xl">21</div>
-                                    <div class="text-sm">Earned</div>
-                                </div>
-                                <div>
-                                    <svg width="100px" height="100px" viewBox="-25 -25 400 400">
-                                        <circle stroke="#424145" cx="175" cy="175" r="175" stroke-width="8" fill="none"></circle>
-                                        <!-- const radius = 175 -->
-                                        <!-- const diameter = Math.round(Math.PI * radius * 2) -->
-                                        <!-- const strokeDashOffset = Math.round((100 - Math.min(val, 100)) / 100 * diameter) -->
-                                        <!-- source: https://github.com/zzarcon/react-circle/blob/master/src/circle.tsx -->
-                                        <circle stroke="#FFFEFF" transform="rotate(-90 175 175)" cx="175" cy="175" r="175" stroke-dasharray="1100" stroke-width="8" stroke-dashoffset="1100" stroke-linecap="round" fill="none" style="stroke-dashoffset: 275;"></circle>
-                                        <text fill="#FFFEFF" x="50%" y="50%" dx="-25" text-anchor="middle" style="font: normal 4rem Poppins, sans-serif;">75<tspan dx="10">%</tspan></text>
-                                    </svg>
-                                </div>
-                                <div class="text-center">
-                                    <div class="text-xl">43</div>
-                                    <div class="text-sm">Available</div>
-                                </div>    
-                            </div>
-                            <div class="flex justify-between mt-8">
-                                <div class="trophy trophy--platinum">
-                                    <span>0</span>
-                                </div>
-                                <div class="trophy trophy--gold">
-                                    <span>0</span>
-                                </div>
-                                <div class="trophy trophy--silver">
-                                    <span>4</span>
-                                </div>
-                                <div class="trophy trophy--bronze">
-                                    <span>17</span>
-                                </div>
-                            </div>
+                            <ps-trophy-summary available="43" earned="21" percentage-earned="39"></ps-trophy-summary>
                         </div>
                     </div>
                     <div>All trophies</div>
+                    <div>All trophies</div>
+                    <div>All trophies</div><div>All trophies</div><div>All trophies</div><div>All trophies</div><div>All trophies</div><div>All trophies</div><div>All trophies</div><div>All trophies</div><div>All trophies</div><div>All trophies</div>
                 </div>
             </div>
         </div>
@@ -142,5 +77,7 @@
                 });
             })
         </script>
+        <script type="module" src="js/web-component/flippable-card.js"></script>
+        <script type="module" src="js/web-component/ps-trophy-summary.js"></script>
     </body>
 </html>

@@ -593,6 +593,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-around;
 }
 
+.overflow-auto {
+  overflow: auto;
+}
+
 .rounded-md {
   border-radius: 0.375rem;
 }
