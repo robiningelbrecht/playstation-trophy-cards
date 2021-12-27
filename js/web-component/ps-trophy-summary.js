@@ -2,6 +2,12 @@ const template = document.createElement("template");
 
 template.innerHTML = `
   <style>
+    *,
+    ::before,
+    ::after {
+        box-sizing: border-box;
+        border-width: 0;
+    }  
     .summary {
       display: flex;
       justify-content: space-around;
@@ -89,66 +95,58 @@ export class PsTrophySummary extends HTMLElement {
     this.attachShadow({ mode: "open" });
     this.shadowRoot.appendChild(template.content.cloneNode(true));
 
-    this.earnedVal = this.shadowRoot.querySelector(
+    this.earnedElement = this.shadowRoot.querySelector(
       "div.summary div.stat--earned div.text-xl"
     );
-    this.availableVal = this.shadowRoot.querySelector(
+    this.availableElement = this.shadowRoot.querySelector(
       "div.summary div.stat--available div.text-xl"
     );
-    this.percentageEarnedVal = this.shadowRoot.querySelector(
+    this.percentageEarnedElement = this.shadowRoot.querySelector(
       "div.summary svg text tspan.value"
     );
-    this.dashOffsetVal = this.shadowRoot.querySelector(
+    this.dashOffsetElement = this.shadowRoot.querySelector(
       "div.summary svg circle.dashed"
     );
-    this.platinumVal = this.shadowRoot.querySelector(
+    this.platinumElement = this.shadowRoot.querySelector(
       "div.trophy.trophy--platinum span"
     );
-    this.goldVal = this.shadowRoot.querySelector(
+    this.goldElement = this.shadowRoot.querySelector(
       "div.trophy.trophy--gold span"
     );
-    this.silverVal = this.shadowRoot.querySelector(
+    this.silverElement = this.shadowRoot.querySelector(
       "div.trophy.trophy--silver span"
     );
-    this.bronzeVal = this.shadowRoot.querySelector(
+    this.bronzeElement = this.shadowRoot.querySelector(
       "div.trophy.trophy--bronze span"
     );
   }
 
   connectedCallback() {
-    if (!this.hasAttribute("earned")) {
-      this.setAttribute("earned", 0);
-    }
-    if (!this.hasAttribute("available")) {
-      this.setAttribute("available", 0);
-    }
-    if (!this.hasAttribute("percentage-earned")) {
-      this.setAttribute("percentage-earned", 0);
-    }
-    if (!this.hasAttribute("platinum")) {
-      this.setAttribute("platinum", 0);
-    }
-    if (!this.hasAttribute("gold")) {
-      this.setAttribute("gold", 0);
-    }
-    if (!this.hasAttribute("silver")) {
-      this.setAttribute("silver", 0);
-    }
-    if (!this.hasAttribute("bronze")) {
-      this.setAttribute("bronze", 0);
-    }
+    [
+      "earned",
+      "available",
+      "percentage-earned",
+      "platinum",
+      "gold",
+      "silver",
+      "bronze",
+    ].forEach((attribute) => {
+      if (!this.hasAttribute(attribute)) {
+        this.setAttribute(attribute, 0);
+      }
+    });
 
-    this.earnedVal.innerText = this.earned;
-    this.availableVal.innerText = this.available;
-    this.percentageEarnedVal.textContent = this.percentageEarned;
-    this.dashOffsetVal.setAttribute(
+    this.earnedElement.innerText = this.earned;
+    this.availableElement.innerText = this.available;
+    this.percentageEarnedElement.textContent = this.percentageEarned;
+    this.dashOffsetElement.setAttribute(
       "style",
       "stroke-dashoffset: " + this.calculatePercentageStrokeDashOffset() + ";"
     );
-    this.platinumVal.innerText = this.platinum;
-    this.goldVal.innerText = this.gold;
-    this.silverVal.innerText = this.silver;
-    this.bronzeVal.innerText = this.bronze;
+    this.platinumElement.innerText = this.platinum;
+    this.goldElement.innerText = this.gold;
+    this.silverElement.innerText = this.silver;
+    this.bronzeElement.innerText = this.bronze;
   }
 
   calculatePercentageStrokeDashOffset() {

@@ -17,63 +17,53 @@
     w-screen h-screen 
     bg-custom-zink-900 
     flex items-center justify-center">
-        <div class="
-        card 
-        w-[400px] 
-        font-poppins font-extralight text-custom-zink-100">
-            <div class="card--inner relative is-flipped">
+        <flippable-card flipped>
+            <div slot="front">
+                <div><img class="rounded-md" src="https://image.api.playstation.com/vulcan/ap/rnd/202007/1500/QKnQTBaQX9gdsIcehTiFonPO.png?w=1920" /></div>
                 <div class="
-                card-face card-face--front 
-                relative p-4 
-                bg-gradient-to-b from-custom-zink-800 to-custom-zink-700 
-                rounded-md">
-                    <div><img class="rounded-md" src="https://image.api.playstation.com/vulcan/ap/rnd/202007/1500/QKnQTBaQX9gdsIcehTiFonPO.png?w=1920" /></div>
-                    <div class="
-                    text-xl font-light 
-                    py-4 
-                    border-b border-custom-zink-200">The Pathless</div>
-                    <div class="cursor-pointer flex justify-between items-center my-3 do-card-flip">
-                        <div>Trophies</div>
-                        <i class="arrow w-[12px] h-[12px] -rotate-45 border-t-0 border-r-2 border-b-2 border-l-0 mr-1"></i>
-                    </div>
-                    <ps-trophy-summary available="43" earned="21" percentage-earned="39"></ps-trophy-summary>
+                text-xl font-light 
+                py-4 
+                border-b border-custom-zink-200">The Pathless</div>
+                <div class="cursor-pointer flex justify-between items-center my-3 do-card-flip">
+                    <div>Trophies</div>
+                    <i class="arrow w-[12px] h-[12px] -rotate-45 border-t-0 border-r-2 border-b-2 border-l-0 mr-1"></i>
                 </div>
-                <div class="
-                card-face card-face--back 
-                overflow-auto
-                p-4 
-                absolute top-0 bottom-0 w-full h-full 
-                bg-gradient-to-b from-custom-zink-800 to-custom-zink-700 
-                rounded-md">
-                    <div class="cursor-pointer flex do-card-flip mb-2 ml-1">
-                        <i class="arrow w-[12px] h-[12px] rotate-45 border-t-0 border-r-0 border-b-2 border-l-2"></i>
-                    </div>
-                    <div class="flex">
-                        <img src="https://i.psnprofiles.com/games/128551/L6d6265.png" class="w-[75px] mr-4 rounded-md"/>
-                        <div class="text-lg">
-                            <div class="mb-2">The Pathless</div>
-                            <div class="font-medium text-sm border w-fit px-2">PS5</div>
-                        </div>
-                    </div>
-                    <div class="mt-[60px] mb-6">
-                        <div class="z-0 relative bg-custom-zink-600 rounded-md p-4">
-                            <div class="flex absolute z-10 -top-[35px] left-0">
-                                <img class="w-[45px] rounded-full ml-[30px] mr-4 border-4 border-custom-zink-800" src="https://i.psnprofiles.com/avatars/m/Gc0466d545.png" />
-                                <div class="text-sm mt-2">Robin Ingelbrecht</div>
-                            </div>
-                            <ps-trophy-summary available="43" earned="21" percentage-earned="39"></ps-trophy-summary>
-                        </div>
-                    </div>
-                    <div>All trophies</div>
-                    <div>All trophies</div>
-                    <div>All trophies</div><div>All trophies</div><div>All trophies</div><div>All trophies</div><div>All trophies</div><div>All trophies</div><div>All trophies</div><div>All trophies</div><div>All trophies</div><div>All trophies</div>
-                </div>
+                <ps-trophy-summary available="43" earned="21" percentage-earned="39"></ps-trophy-summary>
             </div>
-        </div>
+            <div slot="back">
+                <div class="cursor-pointer flex do-card-flip mb-2 ml-1">
+                    <i class="arrow w-[12px] h-[12px] rotate-45 border-t-0 border-r-0 border-b-2 border-l-2"></i>
+                </div>
+                <div class="flex">
+                    <img src="https://i.psnprofiles.com/games/128551/L6d6265.png" class="w-[75px] mr-4 rounded-md"/>
+                    <div class="text-lg">
+                        <div class="mb-2">The Pathless</div>
+                        <div class="font-medium text-sm border w-fit px-2">PS5</div>
+                    </div>
+                </div>
+                <div class="mt-[60px] mb-6">
+                    <div class="z-0 relative bg-custom-zink-600 rounded-md p-4">
+                        <div class="flex absolute z-10 -top-[35px] left-0">
+                            <img class="w-[45px] rounded-full ml-[30px] mr-4 border-4 border-custom-zink-800" src="https://i.psnprofiles.com/avatars/m/Gc0466d545.png" />
+                            <div class="text-sm mt-2">Robin Ingelbrecht</div>
+                        </div>
+                        <ps-trophy-summary available="43" earned="21" percentage-earned="39"></ps-trophy-summary>
+                    </div>
+                </div>
+                <div>All trophies</div>
+                <div>All trophies</div>
+                <div>All trophies</div>
+                <div>All trophies</div>
+                <div>All trophies</div>
+                <div>All trophies</div>
+                <div>All trophies</div>
+                <div>All trophies</div>
+            </div>
+        </flippable-card>
         <script>
             document.querySelectorAll(".do-card-flip").forEach(box => { 
                 box.addEventListener('click', function() {
-                    box.closest('.card--inner').classList.toggle('is-flipped');
+                    box.closest('flippable-card').toggleAttribute('flipped');
                 });
             })
         </script>
