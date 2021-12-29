@@ -513,6 +513,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 30px;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .flex {
   display: flex;
 }
@@ -557,6 +561,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[45px\] {
   width: 45px;
+}
+
+.w-\[100px\] {
+  width: 100px;
 }
 
 .-rotate-45 {
@@ -678,6 +686,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 1rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -711,6 +723,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-extralight {
   font-weight: 200;
 }
@@ -726,4 +743,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-custom-zink-100 {
   --tw-text-opacity: 1;
   color: rgb(255 254 255 / var(--tw-text-opacity));
+}
+
+.text-custom-zink-200 {
+  --tw-text-opacity: 1;
+  color: rgb(66 65 69 / var(--tw-text-opacity));
 }

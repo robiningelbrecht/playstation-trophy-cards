@@ -88,7 +88,7 @@ template.innerHTML = `
   </div>
 `;
 
-export class PsTrophySummary extends HTMLElement {
+export class PsTrophiesSummary extends HTMLElement {
   constructor() {
     super();
 
@@ -187,4 +187,4 @@ export class PsTrophySummary extends HTMLElement {
   }
 }
 
-window.customElements.define("ps-trophy-summary", PsTrophySummary);
+window.customElements.define("ps-trophies-summary", PsTrophiesSummary);
