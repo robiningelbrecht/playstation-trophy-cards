@@ -28,7 +28,14 @@ template.innerHTML = `
         color: rgb(255 254 255);
         font-weight: 200;
         font-family: Poppins, sans-serif;
+        width: calc(100% - 2em);
+        margin: 0 1em;
+    }
+    @media (min-width: 440px) {
+      .card {
         width: 400px;
+        margin: 0;
+      }
     }
     .card .card--inner {
         position: relative;

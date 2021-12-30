@@ -17,7 +17,7 @@
     w-screen h-screen 
     bg-custom-zink-900 
     flex items-center justify-center">
-        <flippable-card>
+        <flippable-card flipped>
             <div slot="front">
                 <div><img class="rounded-md" src="https://image.api.playstation.com/vulcan/ap/rnd/202007/1500/QKnQTBaQX9gdsIcehTiFonPO.png?w=1920" /></div>
                 <div class="
@@ -48,36 +48,8 @@
                     </div>
                 </div>
                 <div class="mb-4">All trophies</div>
-                <div class="flex items-center bg-custom-zink-600 p-4 rounded-md mb-8 border-b-2">
-                    <div class="mr-3 max-w-[75px] min-w-[75px]"><img width="100%" src="https://i.psnprofiles.com/games/128551/trophies/2Mc7b643.png"/></div>
-                    <div class="w-full truncate">
-                        <div>1000 Talisman Shot</div>
-                        <div class="text-xs">Shoot 1000 Talismans.</div>
-                        <div class="flex mt-3 justify-between">
-                            <div class="flex items-center">
-                                <div class="trophy trophy--silver mr-2"></div>
-                                <div class="rarity rarity--rare"></div>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="text-xs mr-2">12/24/2021 1:17PM</div>
-                                <div class="trophy-white"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex items-center bg-custom-zink-600 p-4 rounded-md mb-8">
-                    <div class="mr-3 max-w-[75px] min-w-[75px]"><img width="100%" src="https://i.psnprofiles.com/games/128551/trophies/3S09ada9.png"/></div>
-                    <div class="w-full truncate">
-                        <div>Acrobat</div>
-                        <div class="text-xs">Shoot 5 talismans while airborn before touching the ground.</div>
-                        <div class="flex mt-3 justify-between">
-                            <div class="flex items-center">
-                                <div class="trophy trophy--silver mr-2"></div>
-                                <div class="rarity rarity--rare"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <ps-trophy earned earned-on="12/24/2021 1:17PM" grade="silver" rarity="rare" title="1000 Talisman Shot" description="Shoot 1000 Talismans." icon-source="https://i.psnprofiles.com/games/128551/trophies/2Mc7b643.png"></ps-trophy>
+                <ps-trophy grade="bronze" rarity="common" title="Acrobat" description="Shoot 5 talismans while airborn before touching the ground." icon-source="https://i.psnprofiles.com/games/128551/trophies/3M4f0fae.png"></ps-trophy>
             </div>
         </flippable-card>
         <script>
@@ -89,5 +61,6 @@
         </script>
         <script type="module" src="js/web-component/flippable-card.js"></script>
         <script type="module" src="js/web-component/ps-trophies-summary.js"></script>
+        <script type="module" src="js/web-component/ps-trophy.js"></script>
     </body>
 </html>

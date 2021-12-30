@@ -744,8 +744,35 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(30 29 33 / 0));
 }
 
+.from-\[\#201F27\] {
+  --tw-gradient-from: #201F27;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(32 31 39 / 0));
+}
+
+.from-\[\#232229\] {
+  --tw-gradient-from: #232229;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(35 34 41 / 0));
+}
+
+.from-custom-zink-600 {
+  --tw-gradient-from: #2f2e35;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(47 46 53 / 0));
+}
+
+.via-\[\#201F27\] {
+  --tw-gradient-stops: var(--tw-gradient-from), #201F27, var(--tw-gradient-to, rgb(32 31 39 / 0));
+}
+
 .to-custom-zink-700 {
   --tw-gradient-to: #24232A;
+}
+
+.to-\[\#212527\] {
+  --tw-gradient-to: #212527;
+}
+
+.to-custom-zink-600 {
+  --tw-gradient-to: #2f2e35;
 }
 
 .p-4 {
@@ -814,6 +841,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-custom-zink-200 {
   --tw-text-opacity: 1;
   color: rgb(66 65 69 / var(--tw-text-opacity));
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+.opacity-20 {
+  opacity: 0.2;
 }
 
 .shadow-sm {
