@@ -10,44 +10,38 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
               rel="stylesheet">
 
-        <link rel="stylesheet" href="css/tailwind-output.css">
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
-    <body class="
-    w-screen h-screen 
-    bg-custom-zink-900 
-    flex items-center justify-center">
-        <flippable-card flipped>
+    <body>
+        <flippable-card>
             <div slot="front">
-                <div><img class="rounded-md" src="https://image.api.playstation.com/vulcan/ap/rnd/202007/1500/QKnQTBaQX9gdsIcehTiFonPO.png?w=1920" /></div>
-                <div class="
-                text-xl font-light 
-                py-4 
-                border-b border-custom-zink-200">The Pathless</div>
-                <div class="cursor-pointer flex justify-between items-center my-3 do-card-flip">
+                <img  src="https://image.api.playstation.com/vulcan/ap/rnd/202007/1500/QKnQTBaQX9gdsIcehTiFonPO.png?w=1920" />
+                <div class="title">The Pathless</div>
+                <div class="do-card-flip">
                     <div>Trophies</div>
-                    <i class="arrow w-[12px] h-[12px] -rotate-45 border-t-0 border-r-2 border-b-2 border-l-0 mr-1"></i>
+                    <i class="arrow arrow--right"></i>
                 </div>
                 <ps-trophies-summary available="43" earned="21" percentage-earned="39" class="p-8"></ps-trophy-summary>
             </div>
             <div slot="back">
-                <div class="flex do-card-flip cursor-pointer">
-                    <img src="https://i.psnprofiles.com/games/128551/L6d6265.png" class="w-[75px] mr-4 rounded-md"/>
-                    <div class="text-lg">
-                        <div class="mb-2">The Pathless</div>
-                        <div class="font-medium text-sm border w-fit px-2">PS5</div>
+                <div class="do-card-flip">
+                    <img class="icon" src="https://i.psnprofiles.com/games/128551/L6d6265.png"/>
+                    <div>
+                        <div class="title">The Pathless</div>
+                        <div class="platform">PS5</div>
                     </div>
                 </div>
-                <div class="mt-[60px] mb-6">
-                    <div class="z-0 relative bg-custom-zink-600 rounded-md p-4">
-                        <div class="flex absolute z-10 -top-[35px] left-0">
-                            <img class="w-[45px] rounded-full ml-[30px] mr-4 border-4 border-custom-zink-800" src="https://i.psnprofiles.com/avatars/m/Gc0466d545.png" />
-                            <div class="text-sm mt-2">Robin Ingelbrecht</div>
+                <div class="profile--wrapper">
+                    <div class="profile--inner">
+                        <div class="profile--info">
+                            <img class="avatar" src="https://i.psnprofiles.com/avatars/m/Gc0466d545.png" />
+                            <div class="name">Robin Ingelbrecht</div>
                         </div>
                         <ps-trophies-summary available="43" earned="21" percentage-earned="39"></ps-trophy-summary>
                     </div>
                 </div>
-                <div class="mb-4">All trophies</div>
+                <div class="all-trophies">All trophies</div>
                 <ps-trophy earned earned-on="12/24/2021 1:17PM" grade="silver" rarity="rare" title="1000 Talisman Shot" description="Shoot 1000 Talismans." icon-source="https://i.psnprofiles.com/games/128551/trophies/2Mc7b643.png"></ps-trophy>
                 <ps-trophy grade="bronze" rarity="common" title="Acrobat" description="Shoot 5 talismans while airborn before touching the ground." icon-source="https://i.psnprofiles.com/games/128551/trophies/3M4f0fae.png"></ps-trophy>
             </div>
