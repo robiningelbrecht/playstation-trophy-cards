@@ -35,6 +35,7 @@ template.innerHTML = `
     }
     .trophy .icon img {
         width: 100%;
+        border-radius: 0.375rem;
     }
 
     .trophy .wrapper {
