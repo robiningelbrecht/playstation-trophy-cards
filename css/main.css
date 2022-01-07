@@ -57,6 +57,12 @@ flippable-card div[slot="back"] .game--wrapper {
   display: flex;
 }
 
+flippable-card div[slot="back"] .title-platform--wapper {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 flippable-card div[slot="back"] img.icon {
   width: 85px;
   height: 85px;
@@ -67,9 +73,6 @@ flippable-card div[slot="back"] div.title {
   font-size: 1.125rem;
   line-height: 1.75rem;
   margin-bottom: 0.5rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 flippable-card div[slot="back"] div.platform {

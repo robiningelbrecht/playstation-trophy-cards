@@ -26,8 +26,8 @@ template.innerHTML = `
     }
 
     .trophy .icon {
-        min-width: 75px;
-        max-width: 75px;
+        min-width: 56px;
+        max-width: 56px;
         margin-right: 0.75rem;
     }
     :host(:not([earned])) .trophy .icon {
