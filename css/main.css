@@ -40,7 +40,7 @@ flippable-card div[slot="front"] div.title {
   border-color: rgb(66 65 69);
 }
 
-flippable-card div[slot="front"] .do-card-flip {
+flippable-card div[slot="front"] .wrapper--arrow {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,11 +50,6 @@ flippable-card div[slot="front"] .do-card-flip {
 }
 
 /** FLIPABBLE CARD BACK **/
-flippable-card div[slot="back"] .do-card-flip {
-  display: flex;
-  cursor: pointer;
-}
-
 flippable-card div[slot="back"] img.icon {
   width: 85px;
   height: 85px;

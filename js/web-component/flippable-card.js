@@ -84,16 +84,32 @@ export class FlippableCard extends HTMLElement {
     this.shadowRoot.appendChild(template.content.cloneNode(true));
   }
 
+  connectedCallback(){
+    this.addEventListener('click', this._onClick);
+  }
+
+  disconnectedCallback() {
+    this.removeEventListener('click', this._onClick);
+  }
+
+  _onClick(event) {
+    this._togglePressed();
+  }
+
   get flipped() {
     return this.hasAttribute("flipped");
   }
 
-  set flipped(isFlipped) {
-    if (isFlipped) {
-      this.setAttribute("flipped", "");
-    } else {
-      this.removeAttribute("flipped");
-    }
+  set flipped(value) {
+    const isFlipped = Boolean(value);
+    if (isFlipped)
+      this.setAttribute('flipped', '');
+    else
+      this.removeAttribute('flipped');
+  }
+
+  _togglePressed() {
+    this.flipped = !this.flipped;
   }
 }
 

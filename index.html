@@ -22,14 +22,14 @@
                     <div slot="front">
                         <img src="https://image.api.playstation.com/vulcan/ap/rnd/202007/1500/QKnQTBaQX9gdsIcehTiFonPO.png?w=1920" />
                         <div class="title">The Pathless</div>
-                        <div class="do-card-flip">
+                        <div class="wrapper--arrow">
                             <div>Trophies</div>
                             <i class="arrow arrow--right"></i>
                         </div>
                         <ps-trophies-summary available="43" earned="21" percentage-earned="39"></ps-trophy-summary>
                     </div>
                     <div slot="back">
-                        <div class="do-card-flip">
+                        <div>
                             <img class="icon" src="https://i.psnprofiles.com/games/128551/L6d6265.png"/>
                             <div>
                                 <div class="title">The Pathless</div>
@@ -80,7 +80,7 @@
                 frontSlot.innerHTML = '\
                 <img src="' + game.background_uri + '" />\
                 <div class="title">' + game.title + '</div>\
-                <div class="do-card-flip">\
+                <div class="wrapper--arrow">\
                     <div>Trophies</div>\
                     <i class="arrow arrow--right"></i>\
                 </div>\
@@ -88,7 +88,7 @@
 
                 const backSlot = document.createElement('div');
                 backSlot.innerHTML = '\
-                <div class="do-card-flip">\
+                <div>\
                     <img class="icon" src="' + game.cover_uri + '"/>\
                     <div>\
                         <div class="title">' + game.title + '</div>\
@@ -111,12 +111,6 @@
                 flippableCard.appendChild(frontSlot);
                 flippableCard.appendChild(backSlot);
                 flkty.append([flippableCard]);
-            });
-
-            document.querySelectorAll(".do-card-flip").forEach(box => { 
-                box.addEventListener('click', function() {
-                    box.closest('flippable-card').toggleAttribute('flipped');
-                });
             });
         </script>
     </body>
