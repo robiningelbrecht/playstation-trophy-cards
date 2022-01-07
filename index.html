@@ -21,7 +21,7 @@
                 <flippable-card>
                     <div slot="front">
                         <img src="https://image.api.playstation.com/vulcan/ap/rnd/202007/1500/QKnQTBaQX9gdsIcehTiFonPO.png?w=1920" />
-                        <div class="title">The Pathless</div>
+                        <div class="title">The Pathless The Pathless The Pathless The Pathless</div>
                         <div class="wrapper--arrow">
                             <div>Trophies</div>
                             <i class="arrow arrow--right"></i>
@@ -29,7 +29,7 @@
                         <ps-trophies-summary available="43" earned="21" percentage-earned="39"></ps-trophy-summary>
                     </div>
                     <div slot="back">
-                        <div>
+                        <div class="game--wrapper">
                             <img class="icon" src="https://i.psnprofiles.com/games/128551/L6d6265.png"/>
                             <div>
                                 <div class="title">The Pathless</div>
@@ -88,7 +88,7 @@
 
                 const backSlot = document.createElement('div');
                 backSlot.innerHTML = '\
-                <div>\
+                <div class="game--wrapper">\
                     <img class="icon" src="' + game.cover_uri + '"/>\
                     <div>\
                         <div class="title">' + game.title + '</div>\

@@ -30,6 +30,7 @@ template.innerHTML = `
         font-family: Poppins, sans-serif;
         width: calc(100% - 2em);
         margin: 0 1em;
+        cursor: pointer;
     }
     @media (min-width: 440px) {
       .card {

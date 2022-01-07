@@ -38,6 +38,9 @@ flippable-card div[slot="front"] div.title {
   padding-bottom: 1rem;
   border-bottom-width: 1px;
   border-color: rgb(66 65 69);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 flippable-card div[slot="front"] .wrapper--arrow {
@@ -50,6 +53,10 @@ flippable-card div[slot="front"] .wrapper--arrow {
 }
 
 /** FLIPABBLE CARD BACK **/
+flippable-card div[slot="back"] .game--wrapper {
+  display: flex;
+}
+
 flippable-card div[slot="back"] img.icon {
   width: 85px;
   height: 85px;
@@ -60,6 +67,9 @@ flippable-card div[slot="back"] div.title {
   font-size: 1.125rem;
   line-height: 1.75rem;
   margin-bottom: 0.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 flippable-card div[slot="back"] div.platform {
@@ -101,7 +111,7 @@ flippable-card
   div.profile--info
   img.avatar {
   width: 45px;
-  margin-left: 30px;
+  margin-left: 44px;
   margin-right: 1rem;
   border-color: rgb(30 29 33);
   border-width: 4px;
