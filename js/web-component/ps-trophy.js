@@ -117,7 +117,7 @@ template.innerHTML = `
   </style>
 
     <div class="trophy">
-        <div class="icon"><img/></div>
+        <div class="icon"><img loading="lazy" /></div>
         <div class="wrapper">
             <div class="title"></div>
             <div class="description text-xs"></div>

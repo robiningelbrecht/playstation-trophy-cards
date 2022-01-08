@@ -1,117 +1,141 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Robin Ingelbrecht - Playstation trophy cards</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="assets/favicon.png" sizes="16x16">
-    
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-              rel="stylesheet">
-          
-        <link rel="stylesheet" href="js/libraries/flickity/flickity.min.css">      
+  <head>
+    <title>Robin Ingelbrecht - Playstation trophy cards</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" sizes="16x16" />
 
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <div class="inner">
-            <div class="js-flickity">
-                <flippable-card>
-                    <div slot="front">
-                        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202007/1500/QKnQTBaQX9gdsIcehTiFonPO.png?w=1920" />
-                        <div class="title">The Pathless The Pathless The Pathless The Pathless</div>
-                        <div class="wrapper--arrow">
-                            <div>Trophies</div>
-                            <i class="arrow arrow--right"></i>
-                        </div>
-                        <ps-trophies-summary available="43" earned="21" percentage-earned="39"></ps-trophy-summary>
-                    </div>
-                    <div slot="back">
-                        <div class="game--wrapper">
-                            <img class="icon" src="https://i.psnprofiles.com/games/128551/L6d6265.png"/>
-                            <div class="title-platform--wapper">
-                                <div class="title">The Pathless The Pathless The Pathless The Pathless</div>
-                                <div class="platform">PS5</div>
-                            </div>
-                        </div>
-                        <div class="profile--wrapper">
-                            <div class="profile--inner">
-                                <div class="profile--info">
-                                    <img class="avatar" src="https://i.psnprofiles.com/avatars/m/Gc0466d545.png" />
-                                    <div class="name">Robin Ingelbrecht</div>
-                                </div>
-                                <ps-trophies-summary available="43" earned="21" percentage-earned="39"></ps-trophy-summary>
-                            </div>
-                        </div>
-                        <div class="all-trophies">All trophies</div>
-                        <ps-trophy earned earned-on="12/24/2021 1:17PM" grade="silver" rarity="rare" title="1000 Talisman Shot" description="Shoot 1000 Talismans." icon-source="https://i.psnprofiles.com/games/128551/trophies/2Mc7b643.png"></ps-trophy>
-                        <ps-trophy grade="bronze" rarity="common" title="Acrobat" description="Shoot 5 talismans while airborn before touching the ground." icon-source="https://i.psnprofiles.com/games/128551/trophies/3M4f0fae.png"></ps-trophy>
-                    </div>
-                </flippable-card>
-            </div>
-        </div>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-        <script type="module" src="js/web-component/flippable-card.js"></script>
-        <script type="module" src="js/web-component/ps-trophies-summary.js"></script>
-        <script type="module" src="js/web-component/ps-trophy.js"></script>
-        <script src="js/libraries/flickity/flickity.pkgd.min.js"></script>
-        <script type="module">
-            const flkty_el = document.querySelector('.js-flickity');
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="inner loading">
+      <div>Loading...</div>
+    </div>
 
-            let flkty = new Flickity(flkty_el, {
-                contain: false,
-                pageDots: false,
-                prevNextButtons: true,
-                percentPosition: false,
-                imagesLoaded: true,
-                cellAlign: 'center',
-                draggable: '>1',
-            });
+    <script type="module" src="js/web-component/flippable-card.js"></script>
+    <script
+      type="module"
+      src="js/web-component/ps-trophies-summary.js"
+    ></script>
+    <script type="module" src="js/web-component/ps-trophy.js"></script>
+    <script type="module">
+      const innerEl = document.querySelector(".inner");
 
-            const response = await fetch('assets/me.json');
-            const me =  await response.json();
-           
-            me.games.forEach(game => {
-                const flippableCard = document.createElement('flippable-card');
-                const frontSlot = document.createElement('div');
-                frontSlot.setAttribute('slot', 'front');
-                frontSlot.innerHTML = '\
-                <img src="' + game.background_uri + '" />\
-                <div class="title">' + game.title + '</div>\
+      const response = await fetch("assets/me.json");
+      const me = await response.json();
+
+      innerEl.innerHTML = '';
+      innerEl.classList.remove('loading');
+
+      me.games.forEach((game) => {
+        const flippableCard = document.createElement("flippable-card");
+        const frontSlot = document.createElement("div");
+        frontSlot.setAttribute("slot", "front");
+        frontSlot.innerHTML =
+          '\
+                <img src="' +
+          game.background_uri +
+          '" loading="lazy" />\
+                <div class="title">' +
+          game.title +
+          '</div>\
                 <div class="wrapper--arrow">\
                     <div>Trophies</div>\
                     <i class="arrow arrow--right"></i>\
                 </div>\
-                <ps-trophies-summary available="' + game.trophy_stats.total +'" earned="' + game.trophy_stats.obtained +'" percentage-earned="' + parseInt(game.trophy_stats.completion) +'" platinum="' + (game.has_earned_platinum ? 1 : 0) + '" gold="' + game.trophy_stats.gold + '" silver="' + game.trophy_stats.silver + '" bronze="' + game.trophy_stats.bronze + '"></ps-trophy-summary>';
+                <ps-trophies-summary available="' +
+          game.trophy_stats.total +
+          '" earned="' +
+          game.trophy_stats.obtained +
+          '" percentage-earned="' +
+          parseInt(game.trophy_stats.completion) +
+          '" platinum="' +
+          (game.has_earned_platinum ? 1 : 0) +
+          '" gold="' +
+          game.trophy_stats.gold +
+          '" silver="' +
+          game.trophy_stats.silver +
+          '" bronze="' +
+          game.trophy_stats.bronze +
+          '"></ps-trophy-summary>';
 
-                const backSlot = document.createElement('div');
-                backSlot.innerHTML = '\
+        const backSlot = document.createElement("div");
+        backSlot.innerHTML =
+          '\
                 <div class="game--wrapper">\
-                    <img class="icon" src="' + game.cover_uri + '"/>\
+                    <img class="icon" src="' +
+          game.cover_uri +
+          '" loading="lazy" />\
                     <div class="title-platform--wapper">\
-                        <div class="title">' + game.title + '</div>\
-                        <div class="platform">' + game.platform + '</div>\
+                        <div class="title">' +
+          game.title +
+          '</div>\
+                        <div class="platform">' +
+          game.platform +
+          '</div>\
                     </div>\
                 </div>\
                 <div class="profile--wrapper">\
                     <div class="profile--inner">\
                         <div class="profile--info">\
-                            <img class="avatar" src="' + me.avatar + '" />\
+                            <img class="avatar" src="' +
+          me.avatar +
+          '" loading="lazy"/>\
                             <div class="name">Robin Ingelbrecht</div>\
                         </div>\
-                        <ps-trophies-summary available="' + game.trophy_stats.total +'" earned="' + game.trophy_stats.obtained +'" percentage-earned="' + parseInt(game.trophy_stats.completion) +'" platinum="' + (game.has_earned_platinum ? 1 : 0) + '" gold="' + game.trophy_stats.gold + '" silver="' + game.trophy_stats.silver + '" bronze="' + game.trophy_stats.bronze + '"></ps-trophy-summary>\
+                        <ps-trophies-summary available="' +
+          game.trophy_stats.total +
+          '" earned="' +
+          game.trophy_stats.obtained +
+          '" percentage-earned="' +
+          parseInt(game.trophy_stats.completion) +
+          '" platinum="' +
+          (game.has_earned_platinum ? 1 : 0) +
+          '" gold="' +
+          game.trophy_stats.gold +
+          '" silver="' +
+          game.trophy_stats.silver +
+          '" bronze="' +
+          game.trophy_stats.bronze +
+          '"></ps-trophy-summary>\
                     </div>\
                 </div>\
                 <div class="all-trophies">All trophies</div>\
-                ' + game.trophies.map(trophy => '<ps-trophy ' + (trophy.obtained === true ? 'earned earned-on="12/24/2021 1:17PM"': '') + ' grade="' + trophy.grade + '" rarity="' + trophy.rarity_label.replace(' ', '-').toLowerCase() + '" title="' + trophy.title + '" description="' + trophy.description + '" icon-source="' + trophy.icon_uri + '"></ps-trophy>').join('');
-                backSlot.setAttribute('slot', 'back');
+                ' +
+          game.trophies
+            .map(
+              (trophy) =>
+                "<ps-trophy " +
+                (trophy.obtained === true
+                  ? 'earned earned-on="12/24/2021 1:17PM"'
+                  : "") +
+                ' grade="' +
+                trophy.grade +
+                '" rarity="' +
+                trophy.rarity_label.replace(" ", "-").toLowerCase() +
+                '" title="' +
+                trophy.title +
+                '" description="' +
+                trophy.description +
+                '" icon-source="' +
+                trophy.icon_uri +
+                '"></ps-trophy>'
+            )
+            .join("");
+        backSlot.setAttribute("slot", "back");
 
-                flippableCard.appendChild(frontSlot);
-                flippableCard.appendChild(backSlot);
-                flkty.append([flippableCard]);
-            });
-        </script>
-    </body>
+        flippableCard.appendChild(frontSlot);
+        flippableCard.appendChild(backSlot);
+        innerEl.appendChild(flippableCard);
+      });
+    </script>
+  </body>
 </html>

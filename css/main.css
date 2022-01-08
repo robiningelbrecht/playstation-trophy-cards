@@ -1,5 +1,6 @@
 body {
   background-color: rgb(24 23 31);
+  font-family: Poppins, sans-serif;
   width: 100vw;
   min-height: 100vh;
 }
@@ -18,8 +19,15 @@ body {
   transform: rotate(-45deg);
 }
 
-body > div.inner{
-  margin-top: 2rem;
+body > div.inner {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  color: rgb(255 254 255);
+}
+
+body > div.inner.loading {
+  justify-content: center;
 }
 
 flippable-card {
@@ -127,6 +135,6 @@ flippable-card div[slot="back"] div.profile--inner div.profile--info div.name {
   line-height: 1.25rem;
 }
 
-flippable-card div[slot="back"] div.all-trophies{
+flippable-card div[slot="back"] div.all-trophies {
   margin-bottom: 1rem;
 }

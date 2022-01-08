@@ -27,7 +27,6 @@ template.innerHTML = `
         perspective: 600px;
         color: rgb(255 254 255);
         font-weight: 200;
-        font-family: Poppins, sans-serif;
         width: calc(100% - 2em);
         margin: 0 1em;
         cursor: pointer;
