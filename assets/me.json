@@ -1,7 +1,7 @@
 {
   "name": "Fluttezuhher",
   "country": "Belgium",
-  "avatar": "https://i.psnprofiles.com/avatars/m/Gc0466d545.png",
+  "avatar": "assets/profile/Gc0466d545.png",
   "summary": {
     "level": 420,
     "trophies": {
@@ -79,8 +79,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/128551/Sbb9685.png",
       "uri": "https://psnprofiles.com/trophies/11767-the-pathless/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/vulcan\/ap\/rnd\/202007\/1500\/PzzL4lymRdZuLEerjeL58HG8.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/ap\/rnd\/202007\/1500\/QKnQTBaQX9gdsIcehTiFonPO.png",
+      "cover_uri": "assets/profile/games/PzzL4lymRdZuLEerjeL58HG8.webp",
+      "background_uri": "assets/profile/games/QKnQTBaQX9gdsIcehTiFonPO.webp",
       "trophies": [
         {
           "title": "No Path Untraveled",
@@ -510,8 +510,8 @@
       "has_earned_platinum": true,
       "thumbnail_uri": "https://i.psnprofiles.com/games/d5c442/S35e2ba.png",
       "uri": "https://psnprofiles.com/trophies/14419-marvels-guardians-of-the-galaxy/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/vulcan\/ap\/rnd\/202106\/0215\/Pw9cWnyqkix3EoCOGqrN1cgN.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/ap\/rnd\/202106\/1008\/Mep2H6xVIIc6W5VmkMG0YXOA.jpg",
+      "cover_uri": "assets/profile/games/Pw9cWnyqkix3EoCOGqrN1cgN.webp",
+      "background_uri": "assets/profile/games/Mep2H6xVIIc6W5VmkMG0YXOA.webp",
       "trophies": [
         {
           "title": "This Is What We Do",
@@ -1086,8 +1086,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/0b4ac4/S070dd4.png",
       "uri": "https://psnprofiles.com/trophies/14033-kena-bridge-of-spirits/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/vulcan\/ap\/rnd\/202102\/2307\/kQzDCY5RCrSXCeeFjPGUzkGI.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/ap\/rnd\/202008\/2619\/aEqpsWKWYe1dxn9zKs7HgLai.jpg",
+      "cover_uri": "assets/profile/games/kQzDCY5RCrSXCeeFjPGUzkGI.webp",
+      "background_uri": "assets/profile/games/aEqpsWKWYe1dxn9zKs7HgLai.webp",
       "trophies": [
         {
           "title": "All Trophies Obtained",
@@ -1506,8 +1506,8 @@
       "has_earned_platinum": true,
       "thumbnail_uri": "https://i.psnprofiles.com/games/2444a0/S343e16.png",
       "uri": "https://psnprofiles.com/trophies/13342-a-plague-tale-innocence/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA10812_00\/3\/i_a4d09cfb51b390c3d5f3ea77531bc847294e59386ed520f6edeb6ef377a3b4d7\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA10812_00\/3\/i_a4d09cfb51b390c3d5f3ea77531bc847294e59386ed520f6edeb6ef377a3b4d7\/i\/pic0.png",
+      "cover_uri": "assets/profile/games/S343e16-icon.webp",
+      "background_uri": "assets/profile/games/S343e16.webp",
       "trophies": [
         {
           "title": "Innocence",
@@ -1874,8 +1874,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/b8277a/S024f13.png",
       "uri": "https://psnprofiles.com/trophies/7613-horizon-chase-turbo/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA11452_00\/3\/i_a42413a289793af2e29ab07cf57e14241c6d9f1b13cbac2153d8da4f43dc0274\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/2621\/yaq20hdZ2awifhBpqd2G3Zxp.png",
+      "cover_uri": "assets/profile/games/yaq20hdZ2awifhBpqd2G3Zxp-icon.webp",
+      "background_uri": "assets/profile/games/yaq20hdZ2awifhBpqd2G3Zxp.webp",
       "trophies": [
         {
           "title": "Super Super Trophy",
@@ -2704,8 +2704,8 @@
       "has_earned_platinum": true,
       "thumbnail_uri": "https://i.psnprofiles.com/games/15630f/S857192.png",
       "uri": "https://psnprofiles.com/trophies/12996-ratchet-clank-rift-apart/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/vulcan\/ap\/rnd\/202101\/2921\/DwVjpbKOsFOyPdNzmSTSWuxG.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/ap\/rnd\/202101\/2921\/x64hEmgvhgxpXc9z9hpyLAyQ.jpg",
+      "cover_uri": "assets/profile/games/DwVjpbKOsFOyPdNzmSTSWuxG.webp",
+      "background_uri": "assets/profile/games/x64hEmgvhgxpXc9z9hpyLAyQ.webp",
       "trophies": [
         {
           "title": "Masters of the Multiverse",
@@ -3171,8 +3171,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/d93914/S6bb3db.png",
       "uri": "https://psnprofiles.com/trophies/7678-detroit-become-human/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/2119\/wl4DB5QGzlEHAXy1KLUVgOAu.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/2119\/VljHbt4vhc3Bmn8s83kFAPVg.png",
+      "cover_uri": "assets/profile/games/wl4DB5QGzlEHAXy1KLUVgOAu.webp",
+      "background_uri": "assets/profile/games/VljHbt4vhc3Bmn8s83kFAPVg.webp",
       "trophies": [
         {
           "title": "DETROIT MASTER",
@@ -3656,8 +3656,8 @@
       "has_earned_platinum": true,
       "thumbnail_uri": "https://i.psnprofiles.com/games/202247/S0a6382.png",
       "uri": "https://psnprofiles.com/trophies/11885-immortals-fenyx-rising/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/vulcan\/ap\/rnd\/202008\/1708\/IU319rd7ohrXUZTCQt5OWdct.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202104\/2216\/gglUgW3CTh4XCkc3oE7DdtB8.jpg",
+      "cover_uri": "assets/profile/games/IU319rd7ohrXUZTCQt5OWdct.webp",
+      "background_uri": "assets/profile/games/gglUgW3CTh4XCkc3oE7DdtB8.webp",
       "trophies": [
         {
           "title": "The End",
@@ -4778,8 +4778,8 @@
       "has_earned_platinum": true,
       "thumbnail_uri": "https://i.psnprofiles.com/games/310204/Se64b98.png",
       "uri": "https://psnprofiles.com/trophies/11805-marvels-spider-man-miles-morales/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/vulcan\/ap\/rnd\/202008\/1020\/T45iRN1bhiWcJUzST6UFGBvO.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/2417\/tnCutdREPv6Pa7atqb8MTxGW.png",
+      "cover_uri": "assets/profile/games/T45iRN1bhiWcJUzST6UFGBvO.webp",
+      "background_uri": "assets/profile/games/tnCutdREPv6Pa7atqb8MTxGW.jpeg",
       "trophies": [
         {
           "title": "Be Yourself",
@@ -5270,8 +5270,8 @@
       "has_earned_platinum": true,
       "thumbnail_uri": "https://i.psnprofiles.com/games/fbaec5/Sc10d09.png",
       "uri": "https://psnprofiles.com/trophies/11736-assassins-creed-valhalla/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/vulcan\/ap\/rnd\/202006\/1520\/EDtkdijFRwbmGKk1G9lrDoEF.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202108\/1216\/xLm0uYOHQdv7KU2nvkBfZuUp.jpg",
+      "cover_uri": "assets/profile/games/EDtkdijFRwbmGKk1G9lrDoEF.webp",
+      "background_uri": "assets/profile/games/xLm0uYOHQdv7KU2nvkBfZuUp.jpg",
       "trophies": [
         {
           "title": "Viking Legend",
@@ -6429,8 +6429,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/0be723/S32d971.png",
       "uri": "https://psnprofiles.com/trophies/6891-need-for-speed-payback/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA05986_00\/2\/i_fba56ea350c91aa192a681bf0ed878bb3dac0383c5695e7bbb056c2057d3121d\/i\/icon0_01.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202011\/0204\/o8uqorBt6kI8vwatK0p7NU5X.png",
+      "cover_uri": "assets/profile/games/o8uqorBt6kI8vwatK0p7NU5X-icon.webp",
+      "background_uri": "assets/profile/games/o8uqorBt6kI8vwatK0p7NU5X.webp",
       "trophies": [
         {
           "title": "The Ultimate Payback",
@@ -7479,8 +7479,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/c07e1a/Sbebf47.png",
       "uri": "https://psnprofiles.com/trophies/5304-mafia-iii/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA03617_00\/6\/i_f338b47d39a47211a1a6a66164a5dd400f3ac8d2800acb90e84e2795d81e5cac\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/1520\/sPSeNpvImNCmvg4LcO5Xjfj5.png",
+      "cover_uri": "assets/profile/games/sPSeNpvImNCmvg4LcO5Xjfj5-icon.jpeg",
+      "background_uri": "assets/profile/games/sPSeNpvImNCmvg4LcO5Xjfj5.jpeg",
       "trophies": [
         {
           "title": "Let the Good Times Roll",
@@ -8807,8 +8807,8 @@
       "has_earned_platinum": true,
       "thumbnail_uri": "https://i.psnprofiles.com/games/fa5e82/S151f08.png",
       "uri": "https://psnprofiles.com/trophies/11090-ghost-of-tsushima/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/vulcan\/ap\/rnd\/202010\/0222\/niMUubpU9y1PxNvYmDfb8QFD.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/0222\/NMwFZ00J50ctQEHdRGGg7IBg.png",
+      "cover_uri": "assets/profile/games/niMUubpU9y1PxNvYmDfb8QFD.webp",
+      "background_uri": "assets/profile/games/NMwFZ00J50ctQEHdRGGg7IBg.webp",
       "trophies": [
         {
           "title": "Living Legend",
@@ -10011,8 +10011,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/719afb/Sac3b87.png",
       "uri": "https://psnprofiles.com/trophies/5347-rise-of-the-tomb-raider/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA05716_00\/3\/i_8d554b8e828fb0b49e8f79f55ff9f1e7ab01c979d4009b001a3615935be3a127\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/1618\/0PRx6kuqW0qRZmGhDV3tzEj3.png",
+      "cover_uri": "assets/profile/games/0PRx6kuqW0qRZmGhDV3tzEj3-icon.jpeg",
+      "background_uri": "assets/profile/games/0PRx6kuqW0qRZmGhDV3tzEj3.webp",
       "trophies": [
         {
           "title": "Platinum",
@@ -11778,8 +11778,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/592be4/S9db5af.png",
       "uri": "https://psnprofiles.com/trophies/10660-final-fantasy-vii-remake/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA07187_00\/5\/i_3a90c0e006f2193b1adc12b9424372f4044439cadd6d91fda06c0a86c9c6acf2\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/0723\/vDLeyNzrJdGwabFlEo44GkEZ.png",
+      "cover_uri": "assets/profile/games/vDLeyNzrJdGwabFlEo44GkEZ-icon.webp",
+      "background_uri": "assets/profile/games/vDLeyNzrJdGwabFlEo44GkEZ.webp",
       "trophies": [
         {
           "title": "Master of Fate",
@@ -12307,8 +12307,8 @@
       "has_earned_platinum": true,
       "thumbnail_uri": "https://i.psnprofiles.com/games/8d394f/Sb213d7.png",
       "uri": "https://psnprofiles.com/trophies/10867-maneater/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/cfn\/11307aXYYFtrGHsL_yvf9xyUh6SG_ZXHd5-fX6F7fJv2HLiwjNLwQWlFlHceyQHz-HFksZQii2tOD8nIHWZ6V91znZUKycx3.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202011\/2016\/kzvgLX0lUfHA5CvPBX4e7Hht.jpg",
+      "cover_uri": "assets/profile/games/11307aXYYFtrGHsL_yvf9xyUh6SG_ZXHd5-fX6F7fJv2HLiwjNLwQWlFlHceyQHz-HFksZQii2tOD8nIHWZ6V91znZUKycx3.jpeg",
+      "background_uri": "assets/profile/games/kzvgLX0lUfHA5CvPBX4e7Hht.webp",
       "trophies": [
         {
           "title": "Platinum",
@@ -13053,8 +13053,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/bf6ad2/Scc76f5.png",
       "uri": "https://psnprofiles.com/trophies/6675-lego-ninjago-movie-the-videogame/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/acpkgo\/prod\/CUSA07739_00\/1\/i_597a4c20377d2429fb94c5b046d0ddf0395c5182ecf60e520c5be57468b4064b\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202011\/0204\/Ca4Ktnlx0l3iWZWEg9jHFyWJ.png",
+      "cover_uri": "assets/profile/games/Ca4Ktnlx0l3iWZWEg9jHFyWJ-icon.webp",
+      "background_uri": "assets/profile/games/Ca4Ktnlx0l3iWZWEg9jHFyWJ.webp",
       "trophies": [
         {
           "title": "Grand Master of Trophies",
@@ -13559,8 +13559,8 @@
       "has_earned_platinum": true,
       "thumbnail_uri": "https://i.psnprofiles.com/games/a614d6/Sa88bbe.png",
       "uri": "https://psnprofiles.com/trophies/9544-control/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202102\/0111\/feFiOE59b8t3dKE25z85OJLV.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202101\/2812\/JW0xMHzxQjIck0saWq0ycDyI.png",
+      "cover_uri": "assets/profile/games/feFiOE59b8t3dKE25z85OJLV.webp",
+      "background_uri": "assets/profile/games/JW0xMHzxQjIck0saWq0ycDyI.webp",
       "trophies": [
         {
           "title": "Director of the FBC",
@@ -14637,8 +14637,8 @@
       "has_earned_platinum": true,
       "thumbnail_uri": "https://i.psnprofiles.com/games/921a01/S785f8e.png",
       "uri": "https://psnprofiles.com/trophies/10223-dragon-ball-z-kakarot/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA14835_00\/3\/i_ccd05c92612de5e47b057adf385a52d009477d50172352893034c19d2513943b\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/0613\/ZzehOQTSSTpBRaUta653LZf6.jpg",
+      "cover_uri": "assets/profile/games/ZzehOQTSSTpBRaUta653LZf6-icon.webp",
+      "background_uri": "assets/profile/games/ZzehOQTSSTpBRaUta653LZf6.webp",
       "trophies": [
         {
           "title": "Dragon Ball Master",
@@ -15063,8 +15063,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/8ad7d8/S1c2ee7.png",
       "uri": "https://psnprofiles.com/trophies/3684-god-of-war-iii-remastered/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202011\/0711\/p8JCvA8692BICXAPoyylh7ed.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/2917\/qKv4pRqoGFvnoUKyDSLg17ne.png",
+      "cover_uri": "assets/profile/games/p8JCvA8692BICXAPoyylh7ed.jpeg",
+      "background_uri": "assets/profile/games/qKv4pRqoGFvnoUKyDSLg17ne.webp",
       "trophies": [
         {
           "title": "King of the Hill",
@@ -15422,8 +15422,8 @@
       "has_earned_platinum": true,
       "thumbnail_uri": "https://i.psnprofiles.com/games/1b7ae5/S0b6750.png",
       "uri": "https://psnprofiles.com/trophies/5879-horizon-zero-dawn/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/vulcan\/ap\/rnd\/202010\/0221\/vC7trMorHJgbImp8PCQvpI0p.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/ap\/rnd\/202010\/0221\/1jE1dG7sSfbJnhoRfAeVc2rs.png",
+      "cover_uri": "assets/profile/games/vC7trMorHJgbImp8PCQvpI0p.webp",
+      "background_uri": "assets/profile/games/1jE1dG7sSfbJnhoRfAeVc2rs.webp",
       "trophies": [
         {
           "title": "All trophies obtained",
@@ -16682,8 +16682,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/788b56/S451a64.png",
       "uri": "https://psnprofiles.com/trophies/5722-speedrunners/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA05560_00\/5\/i_ab72d64cbf28aafcc03d617df5b2e13e3b809d2f6cec54927b42df25db03a26d\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA05560_00\/5\/i_ab72d64cbf28aafcc03d617df5b2e13e3b809d2f6cec54927b42df25db03a26d\/i\/pic0.png",
+      "cover_uri": "assets/profile/games/S451a64-icon.webp",
+      "background_uri": "assets/profile/games/S451a64.webp",
       "trophies": [
         {
           "title": "Smooth Operator",
@@ -16874,8 +16874,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/46e305/S899b8e.png",
       "uri": "https://psnprofiles.com/trophies/8906-assassins-creed-iii-remastered/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA11560_00\/2\/i_1f66fe8962ba359e0b0472732030643d8296fb427dd6b227dc67a966fab122ac\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/0220\/a5wZxPH0cqOQ1bx3webAYZGz.jpg",
+      "cover_uri": "assets/profile/games/a5wZxPH0cqOQ1bx3webAYZGz-icon.webp",
+      "background_uri": "assets/profile/games/a5wZxPH0cqOQ1bx3webAYZGz.jpg",
       "trophies": [
         {
           "title": "Master Assassin",
@@ -17412,8 +17412,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/758047/Sae5dc1.png",
       "uri": "https://psnprofiles.com/trophies/4321-assassins-creed-chronicles-trilogy-pack/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA03440_00\/2\/i_07c9aa7ef49c8c5c6eb14618e4f7017a6dbc0855079d7d5a0a09494c6fef88b0\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA03440_00\/2\/i_07c9aa7ef49c8c5c6eb14618e4f7017a6dbc0855079d7d5a0a09494c6fef88b0\/i\/pic0.png",
+      "cover_uri": "assets/profile/games/Sae5dc1-icon.webp",
+      "background_uri": "assets/profile/games/Sae5dc1.webp",
       "trophies": [
         {
           "title": "Master Assassin",
@@ -17946,8 +17946,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/4d4c0b/Sa3790d.png",
       "uri": "https://psnprofiles.com/trophies/4441-trackmania-turbo/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA01210_00\/6\/i_d0b1607bc07a416ce656360c9dff11b19f32b4831403073b5b45a605378d01b5\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/2122\/ZJfTYTHsj8eRgTNE03NvMAZI.jpg",
+      "cover_uri": "assets/profile/games/ZJfTYTHsj8eRgTNE03NvMAZI-icon.png",
+      "background_uri": "assets/profile/games/ZJfTYTHsj8eRgTNE03NvMAZI.webp",
       "trophies": [
         {
           "title": "Trackmaster",
@@ -18435,8 +18435,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/7ce5f7/S398d69.png",
       "uri": "https://psnprofiles.com/trophies/2434-rayman-legends/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA00031_00\/1\/i_de7f2d4471d56be1911987fdae0711e95cd6f21b0ae43c57c70d0bf785ae4acb\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/0920\/kaMRvnAFAPo9dpzHPfMhczfJ.jpg",
+      "cover_uri": "assets/profile/games/kaMRvnAFAPo9dpzHPfMhczfJ-icon.webp",
+      "background_uri": "assets/profile/games/kaMRvnAFAPo9dpzHPfMhczfJ.webp",
       "trophies": [
         {
           "title": "Legendary",
@@ -18939,8 +18939,8 @@
       "has_earned_platinum": true,
       "thumbnail_uri": "https://i.psnprofiles.com/games/d24000/Sacc62e.png",
       "uri": "https://psnprofiles.com/trophies/8260-assassins-creed-odyssey/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA09303_00\/3\/i_d6b485c473b4b3d739197a5f020aeb7428f69d6c29e0dda514f6db41916dc3b6\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/0220\/cwEkE2LWQOaYiIGDIvI222OS.jpg",
+      "cover_uri": "assets/profile/games/cwEkE2LWQOaYiIGDIvI222OS-icon.webp",
+      "background_uri": "assets/profile/games/cwEkE2LWQOaYiIGDIvI222OS.jpg",
       "trophies": [
         {
           "title": "Epic Cycle",
@@ -20288,8 +20288,8 @@
       "has_earned_platinum": true,
       "thumbnail_uri": "https://i.psnprofiles.com/games/8c6109/Sfe0ebb.png",
       "uri": "https://psnprofiles.com/trophies/8143-marvels-spider-man/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/vulcan\/ap\/rnd\/202011\/0402\/C784xeOFo2wViCf4m5bxgoeH.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/2122\/19xis9VT5XfnXsLSMkxUjvVd.png",
+      "cover_uri": "assets/profile/games/C784xeOFo2wViCf4m5bxgoeH.webp",
+      "background_uri": "assets/profile/games/19xis9VT5XfnXsLSMkxUjvVd.webp",
       "trophies": [
         {
           "title": "Be Greater",
@@ -21458,8 +21458,8 @@
       "has_earned_platinum": true,
       "thumbnail_uri": "https://i.psnprofiles.com/games/5c5250/S58d403.png",
       "uri": "https://psnprofiles.com/trophies/6792-assassins-creed-origins/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA05625_00\/3\/i_1918d4f78a3ed7521b7936984d525927a03a03e241bdd3d748bfd23c104d45db\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/0220\/mEgt1tDiuDgwqMPCLIzM1gBD.jpg",
+      "cover_uri": "assets/profile/games/mEgt1tDiuDgwqMPCLIzM1gBD-icon.webp",
+      "background_uri": "assets/profile/games/mEgt1tDiuDgwqMPCLIzM1gBD.jpg",
       "trophies": [
         {
           "title": "Earn Them All!",
@@ -22574,8 +22574,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/291150/S896c74.png",
       "uri": "https://psnprofiles.com/trophies/7523-god-of-war/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202011\/1021\/X3WIAh63yKhRRiMohLoJMeQu.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/2217\/KAmUQWQ5V9QF3XDzmty1VkKj.png",
+      "cover_uri": "assets/profile/games/X3WIAh63yKhRRiMohLoJMeQu.webp",
+      "background_uri": "assets/profile/games/KAmUQWQ5V9QF3XDzmty1VkKj.webp",
       "trophies": [
         {
           "title": "Father and Son",
@@ -22951,8 +22951,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/e410f0/S6f4733.png",
       "uri": "https://psnprofiles.com/trophies/7390-assassins-creed-rogue-remastered/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA10123_00\/3\/i_80ff04b481efdfa0e3614377de51a80034d740bdb420cb28d32c324a4ee78bd3\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA10123_00\/3\/i_80ff04b481efdfa0e3614377de51a80034d740bdb420cb28d32c324a4ee78bd3\/i\/pic0.png",
+      "cover_uri": "assets/profile/games/iS6f4733-icon.webp",
+      "background_uri": "assets/profile/games/S6f4733.webp",
       "trophies": [
         {
           "title": "Platinum Trophy",
@@ -23417,8 +23417,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/1b7525/S9e09bf.png",
       "uri": "https://psnprofiles.com/trophies/3072-assassins-creed-unity/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA00605_00\/3\/i_c15f584921b0e2d55abaac59bca53946438f110541caa61c17439850c3fd7269\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/0220\/lX4FGJHDVSy8szMS7fRrevmY.jpg",
+      "cover_uri": "assets/profile/games/lX4FGJHDVSy8szMS7fRrevmY-icon.webp",
+      "background_uri": "assets/profile/games/lX4FGJHDVSy8szMS7fRrevmY.jpg",
       "trophies": [
         {
           "title": "Master Assassin",
@@ -24445,8 +24445,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/c2af51/S7d1b26.png",
       "uri": "https://psnprofiles.com/trophies/3992-assassins-creed-syndicate/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA02376_00\/4\/i_0e50eb68d16406df3d32f1f41b6c4853886c72762fe3c9954058479faa03afc5\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/0220\/y7N5IayWNS7e008hUsfgPkh1.jpg",
+      "cover_uri": "assets/profile/games/y7N5IayWNS7e008hUsfgPkh1-icon.webp",
+      "background_uri": "assets/profile/games/y7N5IayWNS7e008hUsfgPkh1.jpg",
       "trophies": [
         {
           "title": "Master Assassin",
@@ -25454,8 +25454,8 @@
       "has_earned_platinum": false,
       "thumbnail_uri": "https://i.psnprofiles.com/games/cc3b08/S359338.png",
       "uri": "https://psnprofiles.com/trophies/2247-assassins-creed-iv-black-flag/Fluttezuhher",
-      "cover_uri": "https:\/\/image.api.playstation.com\/gs2-sec\/appkgo\/prod\/CUSA00009_00\/2\/i_bb56e3087ed420e514ddd26c731396aac8cd65aaa26a4d6247d013f417bfae55\/i\/icon0.png",
-      "background_uri": "https:\/\/image.api.playstation.com\/vulcan\/img\/rnd\/202010\/1520\/62tbQSm9C0u6wTsvANYxNxGX.jpg",
+      "cover_uri": "assets/profile/games/62tbQSm9C0u6wTsvANYxNxGX-icon.webp",
+      "background_uri": "assets/profile/games/62tbQSm9C0u6wTsvANYxNxGX.jpg",
       "trophies": [
         {
           "title": "Prizes, Plunder, and Adventure!\u00a0",
