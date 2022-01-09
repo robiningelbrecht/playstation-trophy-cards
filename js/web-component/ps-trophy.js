@@ -73,16 +73,16 @@ template.innerHTML = `
         background-position: left center;
     }
     .grade.grade--platinum {
-        background-image: url(/assets/images/trophy-platinum.png);
+        background-image: url(assets/images/trophy-platinum.png);
     }
     .grade.grade--gold {
-        background-image: url(/assets/images/trophy-gold.png);
+        background-image: url(assets/images/trophy-gold.png);
     }
     .grade.grade--silver {
-        background-image: url(/assets/images/trophy-silver.png);
+        background-image: url(assets/images/trophy-silver.png);
     }
     .grade.grade--bronze {
-        background-image: url(/assets/images/trophy-bronze.png);
+        background-image: url(assets/images/trophy-bronze.png);
     }
     
     .rarity {
@@ -90,7 +90,7 @@ template.innerHTML = `
         height: 25px;
         background-repeat: no-repeat;
         background-size: 50px;
-        background-image: url(/assets/images/rarity-sprite.png);
+        background-image: url(assets/images/rarity-sprite.png);
     }
     .rarity.rarity--common {
         background-position: 0 0;
@@ -111,7 +111,7 @@ template.innerHTML = `
         background-repeat: no-repeat;
         background-size: auto 22px;
         background-position: center;
-        background-image: url(/assets/images/trophy-white.png);
+        background-image: url(assets/images/trophy-white.png);
     }
 
   </style>

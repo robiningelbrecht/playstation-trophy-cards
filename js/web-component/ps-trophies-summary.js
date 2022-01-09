@@ -41,19 +41,19 @@ template.innerHTML = `
       background-position: center top;
     }
     .trophies .trophy.trophy--bronze {
-      background-image: url(/assets/images/trophy-bronze.png);
+      background-image: url(assets/images/trophy-bronze.png);
     }
     
     .trophies .trophy.trophy--silver {
-      background-image: url(/assets/images/trophy-silver.png);
+      background-image: url(assets/images/trophy-silver.png);
     }
     
     .trophies .trophy.trophy--gold {
-      background-image: url(/assets/images/trophy-gold.png);
+      background-image: url(assets/images/trophy-gold.png);
     }
     
     .trophies .trophy.trophy--platinum {
-      background-image: url(/assets/images/trophy-platinum.png);
+      background-image: url(assets/images/trophy-platinum.png);
     }
   </style>
 
