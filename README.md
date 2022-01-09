@@ -4,6 +4,8 @@ Playstation trophy cards based on the Playstation mobile app.
 
 ![Preview](https://github.com/robiningelbrecht/playstation-trophy-cards/raw/master/assets/preview.gif "Preview")
 
+[Live Demo](https://robiningelbrecht.github.io/projects/playstation-trophy-cards/)
+
 # Sources
 
 I used https://github.com/robiningelbrecht/psnprofiles-scraper and https://github.com/Tustin/psn-php to download my personal profile info and all assets.
