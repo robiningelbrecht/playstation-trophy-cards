@@ -27,115 +27,14 @@
     ></script>
     <script type="module" src="js/web-component/ps-trophy.js"></script>
     <script type="module">
-      const innerEl = document.querySelector(".inner");
+      import Fetcher from "./js/Fetcher.js";
+      import Renderer from "./js/Renderer.js";
 
-      const response = await fetch("assets/me.json");
-      const me = await response.json();
-
-      innerEl.innerHTML = '';
-      innerEl.classList.remove('loading');
-
-      me.games.forEach((game) => {
-        const flippableCard = document.createElement("flippable-card");
-        const frontSlot = document.createElement("div");
-        frontSlot.setAttribute("slot", "front");
-        frontSlot.innerHTML =
-          '\
-                <img src="' +
-          game.background_uri +
-          '" loading="lazy" />\
-                <div class="title">' +
-          game.title +
-          '</div>\
-                <div class="wrapper--arrow">\
-                    <div>Trophies</div>\
-                    <i class="arrow arrow--right"></i>\
-                </div>\
-                <ps-trophies-summary available="' +
-          game.trophy_stats.total +
-          '" earned="' +
-          game.trophy_stats.obtained +
-          '" percentage-earned="' +
-          parseInt(game.trophy_stats.completion) +
-          '" platinum="' +
-          (game.has_earned_platinum ? 1 : 0) +
-          '" gold="' +
-          game.trophy_stats.gold +
-          '" silver="' +
-          game.trophy_stats.silver +
-          '" bronze="' +
-          game.trophy_stats.bronze +
-          '"></ps-trophy-summary>';
-
-        const backSlot = document.createElement("div");
-        backSlot.innerHTML =
-          '\
-                <div class="game--wrapper">\
-                    <img class="icon" src="' +
-          game.cover_uri +
-          '" loading="lazy" />\
-                    <div class="title-platform--wapper">\
-                        <div class="title">' +
-          game.title +
-          '</div>\
-                        <div class="platform">' +
-          game.platform +
-          '</div>\
-                    </div>\
-                </div>\
-                <div class="profile--wrapper">\
-                    <div class="profile--inner">\
-                        <div class="profile--info">\
-                            <img class="avatar" src="' +
-          me.avatar +
-          '" loading="lazy"/>\
-                            <div class="name">Robin Ingelbrecht</div>\
-                        </div>\
-                        <ps-trophies-summary available="' +
-          game.trophy_stats.total +
-          '" earned="' +
-          game.trophy_stats.obtained +
-          '" percentage-earned="' +
-          parseInt(game.trophy_stats.completion) +
-          '" platinum="' +
-          (game.has_earned_platinum ? 1 : 0) +
-          '" gold="' +
-          game.trophy_stats.gold +
-          '" silver="' +
-          game.trophy_stats.silver +
-          '" bronze="' +
-          game.trophy_stats.bronze +
-          '"></ps-trophy-summary>\
-                    </div>\
-                </div>\
-                <div class="all-trophies">All trophies</div>\
-                ' +
-          game.trophies
-            .map(
-              (trophy) =>
-                "<ps-trophy " +
-                (trophy.obtained === true
-                  ? 'earned earned-on="12/24/2021 1:17PM"'
-                  : "") +
-                ' grade="' +
-                trophy.grade +
-                '" rarity="' +
-                trophy.rarity_label.replace(" ", "-").toLowerCase() +
-                '" title="' +
-                trophy.title +
-                '" description="' +
-                trophy.description +
-                '" icon-source="' +
-                trophy.icon_uri +
-                '"></ps-trophy>'
-            )
-            .join("");
-        backSlot.setAttribute("slot", "back");
-
-        flippableCard.appendChild(frontSlot);
-        flippableCard.appendChild(backSlot);
-        innerEl.appendChild(flippableCard);
-      });
+      const innerElement = document.querySelector(".inner");
+      const me = await Fetcher.me();
+      const renderer = new Renderer(innerElement, me);
+     
+      renderer.render();
     </script>
   </body>
 </html>
