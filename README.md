@@ -4,7 +4,7 @@ Playstation trophy cards based on the Playstation mobile app.
 
 ![Preview](https://github.com/robiningelbrecht/playstation-trophy-cards/raw/master/assets/preview.gif "Preview")
 
-[Live Demo](https://robiningelbrecht.github.io/projects/playstation-trophy-cards/)
+[Live Demo](https://playstation-trophy-cards.robiningelbrecht.be/)
 
 # Sources
 
